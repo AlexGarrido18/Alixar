@@ -1,0 +1,28 @@
+<instituto>
+    <nombre_instituto>IES Alixar</nombre_instituto>
+    <direccion>Castilleja de la cuesta</direccion>
+    <alumno1>
+        <nombre>Pablo Cristobal</nombre>
+        <apellidos>Quintero Espinar</apellidos>
+        <fecha_nacimiento>17/12/2002</fecha_nacimiento>
+    </alumno1>
+    <alumno2>
+        <nombre>Jesus</nombre>
+        <apellidos>Cardenas Conejo</apellidos>
+        <fecha_nacimiento>23/06/2000</fecha_nacimiento>
+    </alumno2>
+    <alumno3>
+        <nombre>Calamardo</nombre>
+        <apellidos>Tentaculos Esponja</apellidos>
+        <fecha_nacimiento>25/12/0000</fecha_nacimiento>
+    </alumno3>
+    <profesor1>
+        <nombre>Monica</nombre>
+        <apellidos>Marcos Gutierrez</apellidos>
+        <especialidad>Lenguaje de marcas</especialidad>
+    </profesor1>
+    <profesor2>
+        <nombre>Bruce</nombre>
+        <especialidad>vengador</especbialidad>
+    </profesor2>
+</instituto>

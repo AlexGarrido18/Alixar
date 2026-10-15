@@ -1,0 +1,28 @@
+package alex2;
+
+import java.util.Scanner;
+
+public class Ejercicio2_Clase14_10_27 {
+
+	public static void main(String[] args) {
+		
+		int edad;
+		int horasDormidas;
+		final int DIAS_SEMANA=7;
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("¿Hola Ana, que edad tienes?");
+			edad=sc.nextInt();
+		System.out.println("¿Cuantas horas duermes al día?");
+			horasDormidas=sc.nextInt();
+		System.out.println("Hola Ana");
+		System.out.println("Tienes "+edad+" años");
+		System.out.println("Duermes aproximandamente "+(horasDormidas*DIAS_SEMANA)+" horas a la semana");
+		if(edad>18)
+			System.out.println("Eres mayor de edad");
+		else
+			System.out.println("Eres menor de edad y te faltan "+(18-edad)+" años para ser mayor de edad " );
+	}
+
+}

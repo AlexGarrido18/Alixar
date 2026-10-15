@@ -1,0 +1,15 @@
+package alex;
+
+public class Actividad4_1 {
+	public static void main(String[] args) {
+		
+		short num = 32767;
+		System.out.println("Soy un short y maximo es "+num);
+		num++;
+		System.out.println("Si me sumas uno te demuestro que soy ciclico valienodo "+num);
+		
+	}
+
+	}
+
+
