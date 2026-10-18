@@ -1,0 +1,19 @@
+package alex2;
+
+import java.util.Scanner;
+
+public class Ejercicio5b_3 {
+public static void main(String[] args) {
+	int numero;
+	
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("Introduce un numero");
+	numero=sc.nextInt();
+	sc.close();
+	if(numero==1)
+		System.out.println("Tu numero corresponde a Lunes");
+	else 
+		System.out.println("Check");
+}
+}

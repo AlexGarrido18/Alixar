@@ -1,0 +1,31 @@
+package alex2;
+
+import java.util.Scanner;
+
+public class Ejercicio5b_3 {
+public static void main(String[] args) {
+	int numero;
+	
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("Introduce un numero del 1 al 7");
+	numero=sc.nextInt();
+	sc.close();
+	if(numero==1)
+		System.out.println("Tu numero corresponde a Lunes");
+	else if(numero==2)
+		System.out.println("Tu numero corresponde a Martes");
+	else if(numero==3)
+		System.out.println("Tu numero corresponde a Miércoles");
+	else if(numero==4)
+		System.out.println("Tu numero corresponde a Jueves");
+	else if(numero==5)
+		System.out.println("Tu numero corresponde al Viernes");
+	else if(numero==6)
+		System.out.println("Tu numero corresponde al Sábado");
+	else if(numero==7)
+		System.out.println("Tu numero corresponde al Domingo");
+	else
+		System.out.println("Introduzca un numero válido");
+}
+}

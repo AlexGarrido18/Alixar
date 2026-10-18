@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Martín">
+    <title>Tareas</title>
+    <style>
+        caption{
+            background-color: lime;
+        }
+        tfoot{
+            background-color: palevioletred;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col style="background-color: green;">
+            <col span="2" style="background-color: blue;">
+            <col style="background-color: palevioletred;">
+        </colgroup>
+        <caption>Alumnos matriculados</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Teléfono</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>      
+            <tr>
+                <td>Pepe</td>
+                <td>Pérez</td>
+                <td>11111</td>
+                <td>alumno1@g.educaand.es</td>
+            </tr>
+            <tr>
+                <td>Manuel</td>
+                <td>López</td>
+                <td>22222</td>
+                <td>alumno2@g.educaand.es</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>Fernández</td>
+                <td>333333</td>
+                <td>alumno3@g.educaand.es</td>
+            </tr>
+            <tr>
+                <td>Sara</td>
+                <td>Gallardo</td>
+                <td>444444</td>
+                <td>alumno4@g.educaand.es</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total Alumnos</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

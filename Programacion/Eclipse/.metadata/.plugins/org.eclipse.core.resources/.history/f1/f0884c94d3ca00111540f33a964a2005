@@ -1,0 +1,22 @@
+package alex2;
+
+import java.util.Scanner;
+
+public class Ejercicio5b_1 {
+public static void main(String[] args) {
+	String diaIntroducido;
+	
+	Scanner sc=new Scanner(System.in);
+	System.out.println("INTRODUZCA UN DÍA DE LA SEMANA");
+	diaIntroducido=sc.next();
+	
+	System.out.println(diaIntroducido);
+//		if(diaIntroducido=="Lunes")
+//			System.out.println("Hoy toca mates");
+//		else
+//			System.out.println("check");
+//	
+}
+	}
+
+

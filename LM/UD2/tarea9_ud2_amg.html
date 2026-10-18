@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Alejandro Martín">
+    <title>TAREA 9</title>
+    <style>
+        table{
+            border: 2px solid black;
+        }
+        tr,th,td{
+            border: 2px  solid black;
+        }
+        caption{
+            background-color: aquamarine;
+        }
+        thead{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col style="background-color: palevioletred;">
+        </colgroup>
+        <caption>HORARIO DE CLASE 2026-27</caption>
+        <thead>
+            <tr>
+                <th>HORAS</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <td rowspan="2">Mátematicas</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td colspan="5">Recreo</td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>Inglés</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Inglés</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

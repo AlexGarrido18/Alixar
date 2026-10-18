@@ -12,6 +12,7 @@
             <entry path="null"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Users\aleja\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre" version="25.0.4.1"/>
     <libraryInfo home="C:\Users\usuario_tarde\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre" version="25.0.4.1"/>
     <libraryInfo home="C:\Program Files (x86)\Java\jre1.8.0_341" version="1.8.0_341">
         <bootpath>
@@ -29,6 +30,17 @@
         </extensionDirs>
         <endorsedDirs>
             <entry path="C:\Program Files (x86)\Java\jre1.8.0_341\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Users\aleja\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822" version="25.0.4.1">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
         </endorsedDirs>
     </libraryInfo>
 </libraryInfos>
