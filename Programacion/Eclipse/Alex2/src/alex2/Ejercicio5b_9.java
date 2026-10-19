@@ -1,0 +1,73 @@
+package alex2;
+
+import java.util.Scanner;
+
+public class Ejercicio5b_9 {
+	public static void main(String[] args) {
+		ejercicio5_8();
+	}
+    private static void ejercicio5_8() {
+        /*
+         * Realiza un programa que resuelva una ecuación de segundo grado (del tipo ax2
+         * + bx + c = 0).
+         */
+        System.out.println("######## Ejercicio 5.8 ########\n");
+
+        System.out.println("Este programa resuelve ecuaciones de segundo grado del tipo ax^2 + bx + c = 0");
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Introduzca el valor de a: ");
+        double a = sc.nextDouble();
+
+        System.out.print("Introduzca el valor de b: ");
+        double b = sc.nextDouble();
+
+        System.out.print("Introduzca el valor de c: ");
+        double c = sc.nextDouble();
+
+        if (a == 0) {
+            System.out.println("No cuenta como ecuación de segundo grado (a = 0), pasa a ser bx + c = 0.");
+            if (b == 0) {
+                if (c == 0) {
+                    System.out.println("0 = 0 -> Infinitas soluciones.\n");
+                } else {
+                    System.out.println(String.format(
+                            "x = -c / b -> x = -%.2f / %.2f -> Sin solución real por división entre cero.\n", c, b));
+                }
+            } else {
+                double x = -c / b;
+                System.out.println(String.format("x = -c / b -> x = -%.2f / %.2f -> x = %.2f\n", c, b, x));
+            }
+        } else {
+            double calculoRaiz = (b * b) - (4 * a * c);
+
+            if (calculoRaiz > 0) {
+                double x1 = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a); // alternativa -> se puede usar Math.pow(b *
+                                                                           // b - 4 * a * c, 0.5) en lugar de Math.sqrt
+                double x2 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+                System.out.println(String.format("x1 = %.2f, x2 = %.2f\n", x1, x2));
+            } else if (calculoRaiz == 0) {
+                double x = -b / (2 * a);
+                System.out.println(String.format("x = %.2f\n", x));
+            } else {
+                // raiz negativa, no hay solución real, pero sí imaginaria. i^2 = -1
+                // sacamos el -1 fuera como i ya que -1 ==i^2 y puede despejarse de la raíz ,
+                // quedando la de dentro positiva
+                // [-b +- raiz(-(b^2-4ac))*i ]/ 2a
+                // [-b + raiz(-(b^2-4ac))*i ]/ 2a y
+                // [-b - raiz(-(b^2-4ac))*i ]/ 2a
+
+                // -b/2*a + raiz(-(b^2-4ac))/2*a * i y
+                // -b/2*a - raiz(-(b^2-4ac))/2*a * i
+
+                double parteReal = -b / (2 * a);
+                double parteImaginaria = Math.sqrt(-(b * b - 4 * a * c)) / (2 * a);
+
+                System.out.println(String.format("x1 = %.2f + %.2fi", parteReal, parteImaginaria));
+                System.out.println(String.format("x2 = %.2f - %.2fi\n", parteReal, parteImaginaria));
+            }
+
+        }
+    }
+}
