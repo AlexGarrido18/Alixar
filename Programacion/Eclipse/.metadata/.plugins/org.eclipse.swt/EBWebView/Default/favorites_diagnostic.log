@@ -247,3 +247,42 @@
 2026-10-19 15:13:44.500: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-10-19 15:13:44.500: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-10-19 15:33:00.990: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-19 15:35:40.154: [INFO] CurrentProfilePath: C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-19 15:35:40.154: [INFO] Profiles total count: 1
+2026-10-19 15:35:40.154: [INFO] Profile: name=Perfil 1 path=C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-19T15:13:46.709Z
+2026-10-19 15:35:40.154: [INFO] LastUsedProfileDir: C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-19 15:35:40.154: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-19T15:13:46.709Z
+2026-10-19 15:35:40.154: [INFO] OnDoneLoading sync enabled: 0
+2026-10-19 15:35:40.154: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-19 15:35:40.154: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-19 15:35:40.154: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-19 15:51:52.022: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-19 15:57:08.512: [INFO] CurrentProfilePath: C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-19 15:57:08.512: [INFO] Profiles total count: 1
+2026-10-19 15:57:08.512: [INFO] Profile: name=Perfil 1 path=C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-19T15:51:00.514Z
+2026-10-19 15:57:08.512: [INFO] LastUsedProfileDir: C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-19 15:57:08.512: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-19T15:51:00.514Z
+2026-10-19 15:57:08.512: [INFO] OnDoneLoading sync enabled: 0
+2026-10-19 15:57:08.512: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-19 15:57:08.512: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-19 15:57:08.512: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-19 15:58:02.925: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-19 17:24:07.145: [INFO] CurrentProfilePath: C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-19 17:24:07.145: [INFO] Profiles total count: 1
+2026-10-19 17:24:07.145: [INFO] Profile: name=Perfil 1 path=C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-19T15:58:01.829Z
+2026-10-19 17:24:07.145: [INFO] LastUsedProfileDir: C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-19 17:24:07.145: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-19T15:58:01.829Z
+2026-10-19 17:24:07.145: [INFO] OnDoneLoading sync enabled: 0
+2026-10-19 17:24:07.145: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-19 17:24:07.145: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-19 17:24:07.145: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-19 17:29:29.152: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-19 17:29:54.048: [INFO] CurrentProfilePath: C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-19 17:29:54.048: [INFO] Profiles total count: 1
+2026-10-19 17:29:54.049: [INFO] Profile: name=Perfil 1 path=C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-19T15:58:01.829Z
+2026-10-19 17:29:54.049: [INFO] LastUsedProfileDir: C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-19 17:29:54.049: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\usuario_tarde\Desktop\ws-hoy\Alixar\Programacion\Eclipse\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-19T15:58:01.829Z
+2026-10-19 17:29:54.049: [INFO] OnDoneLoading sync enabled: 0
+2026-10-19 17:29:54.049: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-19 17:29:54.049: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-19 17:29:54.049: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
