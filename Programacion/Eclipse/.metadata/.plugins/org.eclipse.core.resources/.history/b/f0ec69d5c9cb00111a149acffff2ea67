@@ -1,0 +1,9 @@
+package alex2;
+
+public class Consonantes_vocales {
+
+	public Consonantes_vocales() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

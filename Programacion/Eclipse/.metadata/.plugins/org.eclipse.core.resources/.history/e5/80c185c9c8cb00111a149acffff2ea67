@@ -1,0 +1,9 @@
+package alex2;
+
+public class Fecha_Hora {
+
+	public Fecha_Hora() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

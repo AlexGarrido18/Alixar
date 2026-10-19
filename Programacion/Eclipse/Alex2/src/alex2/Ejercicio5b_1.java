@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 public class Ejercicio5b_1 {
 public static void main(String[] args) {
-	String diaIntroducido;
-	String Lunes="Lunes";
-	String Martes="Martes";
-	String Miercoles="Miercoles";
-	String Jueves="Jueves";
-	String Viernes="Viernes";
-	
-	Scanner sc=new Scanner(System.in);
-	System.out.println("INTRODUZCA UN DÍA DE LA SEMANA");
-	diaIntroducido=sc.next();
-	
+//	String diaIntroducido;
+//	String Lunes="Lunes";
+//	String Martes="Martes";
+//	String Miercoles="Miercoles";
+//	String Jueves="Jueves";
+//	String Viernes="Viernes";
+//	
+//	Scanner sc=new Scanner(System.in);
+//	System.out.println("INTRODUZCA UN DÍA DE LA SEMANA");
+//	diaIntroducido=sc.next();	
 //		if(diaIntroducido .equals(Lunes))
 //			System.out.println("Hoy a primera hora toca Programación");
 //		else if(diaIntroducido .equals(Martes))
@@ -26,11 +25,25 @@ public static void main(String[] args) {
 //		else
 //			System.out.println("Hoy a primera hora toca IPE I");
 		
+// VERSION 2
+	String diaIntroducido;
+	String asignatura="";
+	
+		Scanner sc=new Scanner(System.in);
+		System.out.println("INTRODUZCA UN DÍA DE LA SEMANA");
+		diaIntroducido=sc.next();	
 		
-		if(diaIntroducido=="Lunes")
-			System.out.println("Hoy a primera hora toca Programación");
-		else
-			System.out.println("Check");
+		switch(diaIntroducido) {
+		case "Lunes":
+			asignatura="Programación";
+		break;
+		case "Martes":
+			asignatura="Digitalización";
+		break;
+		default:
+			asignatura="Ninguna";	
+		}
+		
 }
 	}
 

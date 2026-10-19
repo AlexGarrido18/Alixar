@@ -1,0 +1,25 @@
+package alex2;
+
+import java.util.Scanner;
+
+public class Consonantes_vocales {
+
+public static void main(String[] args) {
+	String letra;
+	String vocal="";
+	boolean esVocal;
+	
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Introduce una letra del abecedario");
+	letra=sc.next() .toLowerCase();
+	
+	switch(letra) {
+	case "a","e","i","o","u":
+		esVocal=true;
+	break;
+	default:
+		esVocal=false;
+	}
+	System.out.println(esVocal?"Si es vocal":"No es vocal");
+}
+}
