@@ -2,7 +2,7 @@ package alex2;
 
 import java.util.Scanner;
 
-public class Ejercicio5b_9 {
+public class Ejercicio5b_8_jesus {
 	public static void main(String[] args) {
 		ejercicio5_8();
 	}
