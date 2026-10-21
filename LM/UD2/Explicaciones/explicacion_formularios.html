@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Martin">
+    <title>Explicación formularios</title>
+</head>
+
+<body>
+    <form action="#" method="get"> <!--POST= NO SE SE SALEN LOS DATOS EN LA URL-->
+        <fieldset>
+            <legend>Datos personales</legend> <!--CARTELITO DE LA ETIQUETA FIELDSET-->
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <!--REQUIERED = NO SE ENVIA HASTA QUE ESE CAMPO ESTE RELLENO-->
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass" placeholder="*****"> <!--PLACEHOLDER = RELLENA EL INPUT-->
+            <label for="provincias"></label>
+            <select name="provincias" id="provincias">
+                <option value="sevilla">Sevilla</option>
+                <option value="sevilla">Sevilla</option> <!--IMPORTANTE NO DEJAR LOS VALUES VACIOS-->
+                <option value="cadiz">Cádiz</option> <!--IMPORTANTE NO DEJAR LOS VALUES VACIOS-->
+            </select>
+            <textarea name="description" id="descriocion" cols="2" rows="2"></textarea>
+            <br>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="femenino" value="femenino">
+            <label for="femenino">Femenino</label>
+            <br>
+            <input type="checkbox" name="aficiones" id="leer">
+            <label for="leer">Leer</label>
+            <input type="checkbox" name="aficiones" id="leer">
+            <label for="pasear">Pasear</label>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Submit</button>
+    </form>
+</body>
+
+</html>

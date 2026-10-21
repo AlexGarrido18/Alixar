@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de tabla HTML completa</title>
+    <style>
+        table,td,th{
+            border:1px,solid,black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de tabla HTML completa</h1>
+
+    <table >
+        <caption>Listado de alumnos</caption>
+
+        <colgroup>
+            <col span="1" >
+            <col span="2" >
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>García López</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Pérez Ruiz</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Total de alumnos</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

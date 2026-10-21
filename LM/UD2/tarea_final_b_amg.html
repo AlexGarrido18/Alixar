@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Martin">
+    <title>Reserva</title>
+</head>
+
+<body>
+    <h1>Reservation Quest</h1>
+    <form action="#" method="get"></form>
+    <fieldset>
+        <legend><b>General information</b></legend>
+        <p>
+            <label for="arrival_date"><b>Arrival Date</b></label>
+            <input type="date" name="arrival_date" id="arrival_date">
+            <label for="departure_date"><b>Departure Date</b></label>
+            <input type="date" name="departure_date" id="departure_date">
+        </p>
+        <p>
+            <label for="adults"><b>Adults:</b></label>
+            <select name="adults" id="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3+">3 or +</option>
+            </select>
+            <label for="children">Children</label>
+            <select name="children" id="children">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3 or +</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><b>Preferences</b></legend>
+        <table>
+            <tbody>
+                <tr>
+                    <th rowspan="3">Room Type:</th>
+                    <td>
+                        <input type="radio" name="room_type" id="standard">
+                        <label for="standard">Standar</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="room_type" id="business">
+                        <label for="business">Business</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="room_type" id="suite">
+                        <label for="suite">Suite</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tr>
+                <th>Services</th>
+                <td>
+                    <input type="checkbox" name="services" id="tv">
+                    <label for="services">TV</label>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </table>
+    </fieldset>
+</body>
+
+</html>
