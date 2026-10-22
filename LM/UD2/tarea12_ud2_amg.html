@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Martin">
+    <title>TAREA FORMULARIO AGRUPADO</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HOJA DE INSCRIPCION EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend><b>DATOS PERSONALES</b></legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombre">NOMBRE:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nombre" id="nombre">
+                    </td>
+                    <td>
+                        <label for="apellidos">APELLIDOS:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="apellidos" id="apellidos">
+                    </td>
+                    <td><label for="dni">DNI:</label></td>
+                    <td>
+                        <input type="text" name="dni" id="dni">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="localidad">LOC.NACIMIENTO</label></td>
+                    <td><input type="text" name="localidad" id="localidad"></td>
+                    <td><label for="provincia">PROVINCIA:</label></td>
+                    <td><select name="provincia" id="provincia">
+                            <option value="sevilla">Sevilla</option>
+                            <option value="huelva">Huelva</option>
+                            <option value="cadiz">Cádiz</option>
+                            <option value="malaga">Málaga</option>
+                            <option value="cordoba">Córdoba</option>
+                            <option value="granada">Granada</option>
+                            <option value="almeria">Almería</option>
+                        </select></td>
+                    <td><label for="nacieminto">FECHA NACIMIENTO</label></td>
+                    <td><input type="date" name="nacieminto" id="nacieminto"></td>
+                </tr>
+                <tr>
+                    <td><label for="direccion">DIRECCIÓN</label></td>
+                    <td><input type="text" name="direccion" id="direccion"></td>
+                    <td colspan="2"></td>
+                    <td><label for="postal">COD.POSTAL:</label></td>
+                    <td><input type="number" name="postal" id="postal"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">CORREO</label></td>
+                    <td><input type="text" name="email" id="email"></td>
+                    <td colspan="2"></td>
+                    <td><label for="telefono">TELÉFONO:</label></td>
+                    <td><input type="tel" name="telefono" id="telefono"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>FORMAS DE ACCESO</legend>
+            <ul>
+                <li><input type="radio" name="directo" id="directo">DIRECTO
+                    <ul>
+                        <li><input type="radio" name="logse" id="logse">BACHILLERATO LOGSE</li>
+                        <li><input type="radio" name="experimental" id="experimental">BACHILLERATO EXPERIMENTAL</li>
+                        <li><input type="radio" name="cou" id="cou">COU</li>
+                        <li><input type="radio" name="fp2" id="fp2">FP2</li>
+                        <li><input type="radio" name="otro" id="otro">OTRO
+                    </ul>
+                </li>
+                <li><input type="radio" name="libre" id="libre">PRUEBA LIBRE</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>DOCUMENTOS ADJUNTOS</legend>
+            <input type="checkbox" name="fotocopia_dni" id="fotocopia_dni">
+            <label for="fotocopia_dni">Fotocopia DNI</label>
+            <br><br>
+            <input type="checkbox" name="certificado" id="certificado">
+            <label for="certificado">Certificado académico</label>
+            <br><br>
+            <input type="checkbox" name="otros" id="otros_checkbox">
+            <label for="otros">Otros documentos (Especificar)</label>
+            <input type="text" name="otros" id="otros">
+            <br><br>
+            <input type="file" name="archivos" id="archivos">
+        </fieldset>
+        <br>
+        <button type="submit">ENVIAR SOLICITUD</button>
+    </form>
+</body>
+
+</html>
