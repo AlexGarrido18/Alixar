@@ -21,16 +21,19 @@ public class Ejercicio6_5 {
 			System.out.println("3.Calcular área");
 			System.out.println("Seleccine una opcion");
 			opcion = sc.nextInt();
-			if (opcion > 3)
+			if (opcion < 1 || opcion > 3)
 				System.out.println("Introduzca una opcion válida");
-		} while (opcion > 3);
+		} while (opcion < 1 || opcion > 3);
 
 		switch (opcion) {
 		case 1:
+			System.out.println("Diámetro = " + (2 * radio));
 			break;
 		case 2:
+			System.out.println("Perímetro = " + (2 * Math.PI * radio));
 			break;
 		case 3:
+			System.out.println("Área = " + (Math.PI * radio * radio));
 			break;
 		default:
 
